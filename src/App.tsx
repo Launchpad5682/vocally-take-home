@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Toaster } from "react-hot-toast";
+import { DowloadPage } from "./routes/DownloadPage/DowloadPage";
+import { UserDetail } from "./routes/UserDetail/UserDetail";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col min-h-screen h-full md:h-screen max-h-full w-full overflow-y-auto">
+      <UserDetail />
+      <DowloadPage />
+      <Toaster position="bottom-center" reverseOrder={false} />
     </div>
   );
 }
