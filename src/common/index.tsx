@@ -13,7 +13,7 @@ export { Header } from "./molecules/Header/Header";
 export { SideBySide } from "./molecules/SideBySide/SideBySide";
 
 // organisms
-export { ContactDetails } from "./organims/ContactDetails/ContactDetails";
-export { Footer } from "./organims/Footer/Footer";
-export { Layout } from "./organims/Layout/Layout";
-export { UserDetailForm } from "./organims/UserDetailForm/UserDetailForm";
+export { ContactDetails } from "./organisms/ContactDetails/ContactDetails";
+export { Footer } from "./organisms/Footer/Footer";
+export { Layout } from "./organisms/Layout/Layout";
+export { UserDetailForm } from "./organisms/UserDetailForm/UserDetailForm";

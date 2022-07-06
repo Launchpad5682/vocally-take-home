@@ -1,6 +1,6 @@
 import { BrandName } from "../../atoms/BrandName/BrandName";
 import { Button } from "../../atoms/Button/Button";
-import { ContactDetails } from "../../organims/ContactDetails/ContactDetails";
+import { ContactDetails } from "../../organisms/ContactDetails/ContactDetails";
 
 export function Header() {
   return (
